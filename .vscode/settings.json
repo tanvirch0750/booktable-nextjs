@@ -7,7 +7,6 @@
   },
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
-
   "editor.tokenColorCustomizations": {
     "[Default Dark+]": {
       "functions": "#1ED760",
@@ -19,7 +18,6 @@
       //"variables": "#0af7d3",
       //"variables": "#ff79cd",
       "variables": "#93E6FC",
-
       "textMateRules": [
         {
           "scope": "variable.other.constant",
@@ -38,7 +36,6 @@
             //"foreground": "#096bff"
           }
         },
-
         {
           "scope": "entity.name.tag",
           "settings": {
@@ -67,4 +64,7 @@
     }
   }
   // "peacock.color": "#61dafb"
+  ,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
